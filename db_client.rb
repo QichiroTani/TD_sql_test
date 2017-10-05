@@ -6,7 +6,7 @@ require 'td-client'
 module DBClient
   class TD
     def initialize(apikey: nil)
-      apikey = '8945/f323db81493d1eee98e4f363e9124df4fbaa0dd8' unless apikey
+      apikey = '***************' unless apikey
       @client = TreasureData::Client.new apikey
       @job_num
     end
